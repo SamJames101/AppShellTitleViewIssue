@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AppShellTitleViewIssue.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AppShellTitleViewIssue"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <Tab Title="Page 1" Route="Page 1">
+            <ShellContent Route="HomePage" ContentTemplate="{DataTemplate local:Page1}"/>
+        </Tab>
+
+        <Tab Title="Page 2" Route="Page 2">
+            <ShellContent Route="HomePage" ContentTemplate="{DataTemplate local:Page2}"/>
+        </Tab>
+
+        <Tab Title="Page 3" Route="Page 3">
+            <ShellContent Route="HomePage" ContentTemplate="{DataTemplate local:Page3}"/>
+        </Tab>
+
+    </TabBar>
+
+</Shell>
+
